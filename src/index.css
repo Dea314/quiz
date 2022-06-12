@@ -4,4 +4,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: invert(85%);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 4rem;
 }
