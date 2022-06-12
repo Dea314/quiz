@@ -17,11 +17,13 @@ const Result = ({ name, score }) => {
 
   return (
     <div className="result">
-      <span className="title">Final Score : {score}</span>
-      {score >= 5 && <img src={prize} className="prize-picture"></img>}{" "}
+      <span className="title">Final Score: {score}</span>
+      {score >= 5 && (
+        <img src={prize} className="prize-picture" alt={prize}></img>
+      )}{" "}
       <Button
         variant="contained"
-        color="secondary"
+        color="primary"
         size="large"
         style={{
           alignSelf: "center",
